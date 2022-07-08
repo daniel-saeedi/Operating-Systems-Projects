@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/daniel/Desktop/OS/Project3/Parallel-Image-Filtering-main/serial'
+g++ -std=c++11  -c readImg.cpp -o readImg.o
+g++ -std=c++11  -o ImageFilters.out readImg.o
+make: Leaving directory `/Users/daniel/Desktop/OS/Project3/Parallel-Image-Filtering-main/serial'
+ 
